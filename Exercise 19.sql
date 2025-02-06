@@ -6,7 +6,6 @@
 CREATE DATABASE IF NOT EXISTS `soft_uni` /*!40100 DEFAULT CHARACTER SET utf8 */;
 USE `soft_uni`;
 
-
 CREATE TABLE IF NOT EXISTS `addresses` (
   `address_id` int(10) NOT NULL AUTO_INCREMENT,
   `address_text` varchar(100) NOT NULL,
